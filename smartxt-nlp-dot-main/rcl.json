@@ -1,0 +1,51 @@
+{
+  "dataset_id": "rcl",
+  "dataset_name": "NHTSA Recalls",
+  "original_file_name": "FLAT_RCL",
+  "dataset_description": "RCL Dataset Description",
+  "id_col": "RECORD_ID",
+  "dataset_path": "recall_data/FLAT_RCL_Cleaned_May-12-2021",
+  "text_col": "DESC_DEFECT",
+  "optimal_topics": 10,
+  "optimal_keywords": 10,
+  "text_col_cleaned": "DESC_DEFECT_CLEAN",
+  "full_dataset_size": 188129,
+  "dupe_removed_size": 188129,
+  "lookup_table_path": "recall_data/BERT_lookup_table_May-13-2021.csv",
+  "date_update": "May-12-2021",
+  "image_path" : "/static/wc_hist_rcl.png",
+  "column_info": {
+    "RECORD_ID": {
+      "display_name": "Record ID",
+      "col_size": "small"
+    },
+    "MAKETXT": {
+      "display_name": "Make",
+      "col_size": "small"
+    },
+    "MODELTXT": {
+      "display_name": "Model",
+      "col_size": "small"
+    },
+    "YEARTXT": {
+      "display_name": "Year",
+      "col_size": "small"
+    },
+    "COMPNAME": {
+      "display_name": "Component Name",
+      "col_size": "medium"
+    },
+    "POTAFF": {
+      "display_name": "Potential Units Affected",
+      "col_size": "small"
+    },
+    "DATEA": {
+      "display_name": "Date Added",
+      "col_size": "small"
+    },
+    "DESC_DEFECT": {
+      "display_name": "Defect Description",
+      "col_size": "large"
+    }
+  }
+}
